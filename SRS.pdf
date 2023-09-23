@@ -1,0 +1,56 @@
+This will be the informal SRS
+This project is divided in two pannel
+        1.  Front end pannel i.e, our website
+        2.  Back end pannel i.e, Admin area
+
+## Features ----------
+website
+        - Explore courses according to category
+        - Sesrch courses with keywords
+        - Free and Paid courses
+        - About us page
+        - Contact us page
+        - FAQ page
+        - Support page
+        - Join as student and enroll in courses
+        - Join as Teacher and Upload content
+
+Teacher pannel
+        - Login/register/OTP verify via Email
+        - Forget password/changePasssword
+        - Profile/social accounts
+        - Send message to enrolled students (Indivisually or all)
+        - category CRUD
+        - Upload content according to category
+                If video status is true then anyone can see the video without enroll
+                If video status is false then only enrolled student can view
+        
+        - Uload study material according to courses
+        - Can see the total enrolled students and their progress
+        - Count total views of content
+
+Student
+        - Log/register/OTP verify Email
+        - Forget/changePasssword/profile
+        - enrolled courses
+                Each enrolled course show the video in Sequence
+                When previous video the  student acces the next video
+        - View the profile of the content creator
+        - send message to content creators (Indivisually or all)
+Admin pannel
+        - manange Everything
+        - Search anything
+        - Add/update/delete any content
+        - Enable disable any course student Teacher
+
+
+### Teachnologies used
+        #Backend
+            - Python
+            - Django
+            - REST API(Django rest framework)
+            - SQLite
+
+        #Frontend
+            - Bootstrap s
+            - ReactJS
